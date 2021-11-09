@@ -1,0 +1,11 @@
+nav{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 15px;
+    
+}

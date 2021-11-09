@@ -1,5 +1,8 @@
+import { NavBar } from './componets/NavBar/NavBar'
+import { MedPage } from './componets/MedPage/MedPage'
+import { TituloPage } from './componets/TituloPage/TituloPage'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
-import { NavBar } from './componets/NavBar'
 
 function App() {
   return (
@@ -7,9 +10,9 @@ function App() {
     <div className="App">
         <div className="header">
          
-         <NavBar />
-
-          <h1>PinguinMusicc</h1>
+        <NavBar />
+        <TituloPage />
+        <MedPage />
         </div>
     </div>
   );
