@@ -1,8 +1,9 @@
-import { NavBar } from './componets/NavBar/NavBar'
 import { MedPage } from './componets/MedPage/MedPage'
 import { TituloPage } from './componets/TituloPage/TituloPage'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from 'react-bootstrap/Navbar';
+//import { NavBar } from './componets/NavBar/NavBar'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
         <div className="header">
          
-        <NavBar />
+        <NavBar bg="dark" variant="dark"></NavBar>
+
         <TituloPage />
         <MedPage />
         </div>
