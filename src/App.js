@@ -1,9 +1,9 @@
-import { MedPage } from './componets/MedPage/MedPage'
+import './style.css';
 import { TituloPage } from './componets/TituloPage/TituloPage'
-import './style.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from 'react-bootstrap/Navbar';
-//import { NavBar } from './componets/NavBar/NavBar'
+import { Navegacion } from './componets/NavBar/Barra';
+import { Carrusel } from './componets/Carrusel/Carrusel';
+
+
 
 function App() {
   return (
@@ -11,10 +11,9 @@ function App() {
     <div className="App">
         <div className="header">
          
-        <NavBar bg="dark" variant="dark"></NavBar>
-
+        <Navegacion></Navegacion>
+        <Carrusel />
         <TituloPage />
-        <MedPage />
         </div>
     </div>
   );

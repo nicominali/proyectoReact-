@@ -1,11 +1,20 @@
-nav{
-    text-align: center;
-}
+.BarraNav{
+    background-color: brown;
+    height: 150px;
 
-li{
-    display: inline;
-    font-size: 25px;
-    text-align: center;
-    padding-right: 15px;
-    
+}
+.BarraBuscar{
+    margin-right: 165px;
+    margin-bottom: 12px;
+    margin-top: 45px;
+    margin-left: 165px;
+}
+.btn-buscador{
+    content: '';
+    display: block;
+    height: 40px;
+    border-left: 1px solid #e6e6e6;
+    position: absolute;
+    top: 44px;
+    right: 166px;
 }
