@@ -12,7 +12,7 @@ function App() {
         <div className="header">
          
         <Navegacion></Navegacion>
-        <Carrusel />
+        <Carrusel tituloCarruselUno="Novedades Navideñas" tituloCarruselDos="Descuentos del 25%" tituloCarruselTres="Lo nuevo de esta semana"/>
         <TituloPage />
         </div>
     </div>
