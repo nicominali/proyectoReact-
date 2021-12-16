@@ -21,7 +21,7 @@ function App() {
         <Carrusel/>
         <TituloPage />
 
-        <TituloProductos TituloProductos="Ofertas" icon="https://st.depositphotos.com/3265665/4462/i/600/depositphotos_44627471-stock-photo-transparent.jpg"/>
+        <TituloProductos TituloProductos="Ofertas" icon="https://fondosmil.com/fondo/17538.jpg"/>
          <Productos name="camioneta" imagen="https://http2.mlstatic.com/D_Q_NP_901572-MLA32415118122_102019-AB.webp" />
          <Productos name="camioneta roja" imagen="https://http2.mlstatic.com/D_Q_NP_707293-MLA32770834819_112019-AB.webp"/>
          <Productos name="camioneta" imagen="https://http2.mlstatic.com/D_Q_NP_901572-MLA32415118122_102019-AB.webp" />
@@ -34,7 +34,7 @@ function App() {
          <Productos  name="camioneta" imagen="https://http2.mlstatic.com/D_Q_NP_901572-MLA32415118122_102019-AB.webp" />
          <Productos  name="camioneta" imagen="https://http2.mlstatic.com/D_Q_NP_901572-MLA32415118122_102019-AB.webp" />
         
-        <TituloProductos TituloProductos="Belleza" icon="https://st.depositphotos.com/3265665/4462/i/600/depositphotos_44627471-stock-photo-transparent.jpg"/>
+        <TituloProductos TituloProductos="Belleza" icon="https://fondosmil.com/fondo/17538.jpg"/>
          <Productos name="camioneta" imagen="https://http2.mlstatic.com/D_Q_NP_901572-MLA32415118122_102019-AB.webp" />
 
 
