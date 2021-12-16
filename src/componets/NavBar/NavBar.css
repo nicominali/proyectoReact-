@@ -18,3 +18,10 @@
     top: 44px;
     right: 166px;
 }
+.logo{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 21px;
+}

@@ -1,0 +1,13 @@
+.Card-product{
+    width: 15rem;
+    margin-top: 25px;
+    margin-left: 55px;
+    display: block;
+    
+}
+.tituloOfertas{
+    margin-top: 25px;
+}
+.containerOfertas{
+    display: inline-block;
+}
