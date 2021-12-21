@@ -3,13 +3,14 @@ import './SectionNavBar.css'
 import { NavDropdown , Nav , Navbar , Button , Form , FormControl , Container, Dropdown} from 'react-bootstrap'
 import { SubSeccionesNavBar } from './SubSeccionesNavBar/SubSeccionesNavBar'
 import { Link } from 'react-router-dom'
+import { Productos } from '../../Producto/Productos'
 
 
 
 
 
 export const SectionNavBar = () => {
-    
+
     
     return (
         <div>
@@ -21,13 +22,13 @@ export const SectionNavBar = () => {
         
         <NavDropdown title="Categorias" id="basic-nav-dropdown">
             <Link to="/Vehiculos/vehiculo">Vehiculos<NavDropdown.Item ></NavDropdown.Item></Link>
-            <Link to="/Departamentos">Departamentos<NavDropdown.Item ></NavDropdown.Item></Link>
+            <Link to="/Departamentos/departamentos">Departamentos<NavDropdown.Item ></NavDropdown.Item></Link>
             <SubSeccionesNavBar/>
-            <Link to="/Belleza">Belleza e higiene<NavDropdown.Item ></NavDropdown.Item></Link>
+            <Link to="/Belleza/belleza">Belleza<NavDropdown.Item ></NavDropdown.Item></Link>
           
         </NavDropdown>
-        <Link to="/Moda">Moda<NavDropdown.Item ></NavDropdown.Item></Link>
-        <Link to="/Ayuda">Ayuda<NavDropdown.Item ></NavDropdown.Item></Link>
+        <Link to="/Moda/moda">Moda<NavDropdown.Item ></NavDropdown.Item></Link>
+        <Link to="/Ayuda/ayuda">Ayuda<NavDropdown.Item ></NavDropdown.Item></Link>
         </Nav>
     </Navbar.Collapse>
   </Container>
@@ -36,5 +37,3 @@ export const SectionNavBar = () => {
         </div>
     )
 }
-/* margin: -44px -42px 52px -42px; */
-    /* background-color: transparent !important;*/

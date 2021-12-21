@@ -1,12 +1,14 @@
 import React from 'react'
 import {Card , Button} from 'react-bootstrap'
-import { stock } from '../../data/stock'
+import { stock } from '../data/stock'
 
 
 
-export const ProductosVehiculos = () => {
+
+export const Producto = () => {
     return (
         <div>
+            
             {stock.map( (prod) =>(
                 <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={prod.img} />

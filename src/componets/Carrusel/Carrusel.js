@@ -1,8 +1,6 @@
 import './carrusel.css'
 import { Carousel } from 'react-bootstrap';
-import FotoCarruselUno from '../FotosCarrusel/FotoCarruselUno/foto-carrusel-uno.jpg' 
-import FotoCarruselDos from '../FotosCarrusel/FotoCarruselDos/foto-carrusel-dos.jpg'
-import FotoCarruselTres from '../FotosCarrusel/FotoCarrueslTres/foto-carrusel-tres.jpg'
+
 
 
 export const Carrusel = () =>{
