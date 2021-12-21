@@ -11,16 +11,20 @@ export const SubSeccionesNavBar = () => {
         key={direction}
         id={`dropdown-button-drop-${direction}`}
         drop={direction}
-        variant="secondary"
+        variant=""
         title={` Drop ${direction} `}
-      >
-        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
-        <Dropdown.Divider />
-        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-      </DropdownButton>
+        title="Tecnologia"
+        className="bottonTecnologia"
+        style ={{'backgroundColor':'transparent' , 'borderColor':'transparent' , 'color':'#fff'}}
+     
+      > 
+        <Dropdown.Item eventKey="1">Celulares</Dropdown.Item>
+        <Dropdown.Item eventKey="2">Tablets</Dropdown.Item>
+        <Dropdown.Item eventKey="3">Computadoras</Dropdown.Item>
+        
+      </DropdownButton >
     ))}
+   
   </div>
            
         </div>

@@ -1,53 +1,33 @@
-/*.container{
-    width: 100%;
-    padding-right: 0px;
-    margin-left: 240px;
-    margin-top: -6px;
-    margin-bottom: 0;
-}
 .dropdown-menu{
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin: 0;
-    font-size: 1rem;
-    text-align: left;
-    list-style: none;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0.25rem;
-    background-color: rgba(32, 30, 30, 0.822) !important;
-    color: #fff;
+    background-color: #171a1a !important;
+    color: #fff !important;
+}
+.navbar{
+    margin-left: 15rem;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff !important;
+    background-color: mediumblue !important;
 }
 .dropdown-item{
     color: #fff !important;
 }
+.btn-group-vertical>.btn, .btn-group>.btn{
+    color:"#fff" !important;
+}
+.dropdown-toggle{
+    color: #fff !important;
+}
+.btn{
+    color: #fff !important;
+}
+button{
+    color: #fff !important;
    
-.menu-tres{
-    color: #fff !important;
 }
-.dropdown-item:hover{
-    color: white;
-    background-color: blue !important;
+.btn:hover{
+    background-color: mediumblue !important;
 }
-.navbar-expand{
-    margin-left: 240px;
-} 
-.tecnologia-menu{
-    padding-top: 0px !important;
-    padding-bottom: 10px !important;
-    padding-right: 9px !important;
-    padding-left: 161px !important;
-    margin-left: 11px !important;
-    margin-right: 3px !important;
-    color: #fff !important;
-    
-}
-a{
-    color: #fff !important;
-}*/
-.navbar{
-    margin-left: 15rem;
+.dropend .dropdown-menu{
+    margin-left: 45px !important;
 }

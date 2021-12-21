@@ -2,6 +2,8 @@ import React , { useState } from 'react'
 import './SectionNavBar.css'
 import { NavDropdown , Nav , Navbar , Button , Form , FormControl , Container, Dropdown} from 'react-bootstrap'
 import { SubSeccionesNavBar } from './SubSeccionesNavBar/SubSeccionesNavBar'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -17,16 +19,15 @@ export const SectionNavBar = () => {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
         
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown title="Categorias" id="basic-nav-dropdown">
+            <Link to="/Vehiculos/vehiculo">Vehiculos<NavDropdown.Item ></NavDropdown.Item></Link>
+            <Link to="/Departamentos">Departamentos<NavDropdown.Item ></NavDropdown.Item></Link>
             <SubSeccionesNavBar/>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <Link to="/Belleza">Belleza e higiene<NavDropdown.Item ></NavDropdown.Item></Link>
           
         </NavDropdown>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-
+        <Link to="/Moda">Moda<NavDropdown.Item ></NavDropdown.Item></Link>
+        <Link to="/Ayuda">Ayuda<NavDropdown.Item ></NavDropdown.Item></Link>
         </Nav>
     </Navbar.Collapse>
   </Container>
