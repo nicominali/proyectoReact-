@@ -1,0 +1,11 @@
+img{
+    width: 250px !important;
+}
+h2{
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    position: relative !important;
+    text-align: right !important;
+}

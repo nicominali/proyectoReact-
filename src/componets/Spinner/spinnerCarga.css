@@ -1,0 +1,14 @@
+.spinnerDos{
+    animation: 0.67s linear infinite spinner-grow !important;
+}
+.spinnerTres{
+    animation: 0.69s linear infinite spinner-grow !important;
+}
+.spinners{
+    margin-top: 20rem;
+    margin-left: 28rem;;
+}
+.spinner-grow{
+    width: 5rem !important;
+    height: 5rem !important;
+}
